@@ -67,9 +67,6 @@ liberator.plugins.webSearch = (function() {
       true
     );
 
-    if (typeof template.urlWithoutKeyword != 'undefined') {
-      liberator.modules.quickmarks.add(template.names[0][0], template.urlWithoutKeyword);
-    }
   });
 
   var openWithKeyword = function(url, keyword, tabOpen) {
